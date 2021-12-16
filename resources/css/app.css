@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+table th, table td {
+    @apply p-4;
+}
+
+table thead th {
+    @apply border-b border-gray-700;
+}
+
+
+table tbody td {
+    @apply border-b;
+}
+
+
+table tbody tr:last-child td {
+    border-bottom: transparent;
+}
+
+form-input{
+    @apply border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm;
+}
